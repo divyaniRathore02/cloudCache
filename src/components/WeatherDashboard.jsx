@@ -83,7 +83,7 @@ const WeatherDashboard = () => {
     <>
       <div className="container-bg p-10">
         <div className="max-w-[1200px] flex flex-col align-center justify-center mx-auto">
-        <h2 className="text-white text-sm sm:text-xl md:text-2xl my-3 text-center">Search the city name to get weather update on your dashboard</h2>
+        <h2 className="text-white text-sm sm:text-xl md:text-2xl my-6 font-bold text-center">Search for a city to view its weather and forecast on your dashboard</h2>
           <input
             onChange={handleChange}
             className="w-[70%] border-[2px] border-white rounded-[60px] py-2 mx-auto"
