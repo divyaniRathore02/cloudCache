@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container-bg {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(147, 230, 241) 0%,
+    rgb(145, 192, 241) 45.5%
+  );
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.detail-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(131, 149, 255, 0.307);
+}
+
+button:hover{
+  background-color: rgba(131, 149, 255, 0.307);
+  color: white;
+}
